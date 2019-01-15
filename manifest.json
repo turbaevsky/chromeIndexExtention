@@ -1,0 +1,18 @@
+{
+ "manifest_version": 2,
+"name": "Indexes",
+ "description": "This extension shows the most important indexes",
+ "version": "1.0",
+"browser_action": {
+ "default_title": "Indexes"
+ },
+"background":
+{
+  "scripts":["background.js"],
+  "persistent": true
+},
+    "permissions": [
+	"https://www.hl.co.uk/",
+	"https://uk.reuters.com/"
+]
+}
